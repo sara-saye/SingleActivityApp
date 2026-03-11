@@ -16,6 +16,7 @@
         android:src="@drawable/android_logo" />
 
     <ImageView
+        android:layout_marginTop="16dp"
         android:id="@+id/foregroundimage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Facebook."
+        android:text="@string/description"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,10 +41,9 @@
         android:layout_marginTop="16dp"
         android:drawableStart="@drawable/outline_apartment_24"
         android:drawablePadding="8dp"
-        android:text="Mountain View, California, US"
+        android:text="@string/address"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@id/linktv"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/maintext" />
 
@@ -55,10 +55,9 @@
         android:autoLink="web"
         android:drawableStart="@drawable/baseline_ac_unit_24"
         android:drawablePadding="8dp"
-        android:text="Google.com"
+        android:text="@string/link"
         android:textColorLink="@android:color/holo_blue_dark"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/addresstv" />
 
