@@ -16,7 +16,7 @@
         android:src="@drawable/android_logo" />
 
     <ImageView
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="35dp"
         android:id="@+id/foregroundimage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,9 +27,9 @@
         android:id="@+id/maintext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="35dp"
         android:text="@string/description"
-        android:textSize="25sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/foregroundimage" />
@@ -38,11 +38,11 @@
         android:id="@+id/addresstv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="35dp"
         android:drawableStart="@drawable/outline_apartment_24"
         android:drawablePadding="8dp"
         android:text="@string/address"
-        android:textSize="25sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@id/linktv"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/maintext" />
@@ -51,13 +51,13 @@
         android:id="@+id/linktv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:autoLink="web"
         android:drawableStart="@drawable/baseline_ac_unit_24"
         android:drawablePadding="8dp"
         android:text="@string/link"
         android:textColorLink="@android:color/holo_blue_dark"
-        android:textSize="25sp"
+        android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/addresstv" />
 
