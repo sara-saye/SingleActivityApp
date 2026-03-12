@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بدون اسم</string>
+    <string name="description">شركة جوجل (LLC) هي شركة تكنولوجيا أمريكية متعددة الجنسيات، متخصصة في الخدمات والمنتجات ذات الصلة بالإنترنت، والتي تشمل تقنيات الإعلان عبر الإنترنت، ومحرك البحث، والحوسبة السحابية، والبرمجيات، والأجهزة. وتُعتبر واحدة من أكبر أربع شركات تكنولوجيا (The Big Four)، إلى جانب أمازون، وآبل، وفيسبوك</string>
+    <string name="link">google.com</string>
+    <string name="address">ماونتن فيو، كاليفورنيا، الولايات المتحدة.</string>
+</resources>
